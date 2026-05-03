@@ -1,6 +1,6 @@
 [build]
-  command = "bun run build"
-  publish = "dist/client"
+  command = "npm run build"
+  publish = ".output/public"
 
 # Hashed static assets — immutable cache (1 year)
 [[headers]]
